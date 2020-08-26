@@ -30,4 +30,4 @@
 | function | Plot | Description |
 |-|-|-|
 | ggbarstats | violin plots | for comparisons between groups |
-|  |  |  |
+| ggcorrmat | correlation matrices | for correlations between multiple variables  |
