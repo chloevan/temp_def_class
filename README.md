@@ -25,9 +25,26 @@
 - [compas](https://compas.lh.or.kr/) 
 
 # Table 작성
-- 함수의 설명서는 아래와 같습니다. 
+- 함수의 `설명서`는 아래와 같습니다. 
 
 | function | Plot | Description |
 |-|-|-|
 | ggbarstats | violin plots | for comparisons between groups |
 | ggcorrmat | correlation matrices | for correlations between multiple variables  |
+
+# 소스코드 입력
+- 터미널 bash 코드 입력 예제
+
+```shell script
+$ python -m pip install -U pip
+$ python -m pip install -U matplotlib
+```
+
+```python
+import pandas as pd
+```
+
+```r
+library(ggplot2)
+library(dyplyr)
+```
