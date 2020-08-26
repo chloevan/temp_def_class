@@ -46,10 +46,26 @@ import pandas as pd
 
 ```r
 library(ggplot2)
-library(dyplyr)
+library(dplyr)
 ```
 
 # 그림파일 예제
 - 다음은 그림파일 예제입니다. 
+
+```r
+# loading needed libraries
+library(ggstatsplot)
+
+# for reproducibility
+set.seed(123)
+
+# plot
+ggstatsplot::ggbetweenstats(
+  data = iris,
+  x = Species,
+  y = Sepal.Length,
+  title = "Distribution of sepal length across Iris species"
+)
+```
 
 ![](img/README-ggbetweenstats1-1.png)
