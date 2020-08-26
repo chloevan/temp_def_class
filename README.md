@@ -23,3 +23,11 @@
 
 ### 주관 대회 사이트 
 - [compas](https://compas.lh.or.kr/) 
+
+# Table 작성
+- 함수의 설명서는 아래와 같습니다. 
+
+| function | Plot | Description |
+|-|-|-|
+| ggbarstats | violin plots | for comparisons between groups |
+|  |  |  |
